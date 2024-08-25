@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px; /* Space between text field and button */
+    width: 100%;
+    max-width: 600px; /* Optional: limit max width */
+  }
+  
+  .submit-button {
+    margin-bottom: 20px; /* Space between button and dropdown */
+  }
+  
+  .filter-select {
+    margin-bottom: 20px; /* Space between dropdown and response */
+    width: 100%;
+    max-width: 600px; /* Optional: limit max width */
+  }
+  
+  .response-container {
+    width: 100%;
+    max-width: 600px; /* Optional: limit max width */
+  }
+  
