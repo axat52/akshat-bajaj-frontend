@@ -107,9 +107,6 @@ const DisplayComponent = () => {
       <div className="response-container">
         <h3>Filtered Response</h3>
         <p>{filteredResponse}</p>
-
-        <h3>API Response</h3>
-        {apiResponse && <pre>{JSON.stringify(apiResponse, null, 2)}</pre>}
       </div>
     </div>
   );
